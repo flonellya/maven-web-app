@@ -34,9 +34,9 @@ pipeline{
 		}
 		stage('Predeployment'){
 			steps{
-				sh "docker build -t myfirstdockerproject/maven-web-app ."
+				sh "docker build -t devopstestimage/maven-web-app ."
 				sh "docker login -u devopstestimage -p florence1"
-				sh "docker push myfirstdockerproject/maven-web-app"
+				sh "docker push devopstestimage/maven-web-app"
 			}
 		}
 		stage('Deployment'){
