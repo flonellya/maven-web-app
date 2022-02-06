@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://3.86.179.211:4000/repository/myfirstreporelease/</url>
+	      <url>http://54.221.4.223:4000/repository/myfistrelease/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.86.179.211:4000/repository/myfirstreposnapshot/</url>
+	      <url>http://54.221.4.223:4000/repository/myfirstsnapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
