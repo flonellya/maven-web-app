@@ -34,15 +34,15 @@ pipeline{
 		}
 		stage('Predeployment'){
 			steps{
-				sh "docker build -t devopstestimage/newproject ."
+				sh "docker build -t devopstestimage/project ."
 				sh "docker login -u devopstestimage -p florence1"
-				sh "docker push devopstestimage/newproject"
+				sh "docker push devopstestimage/project"
 			}
 		}
 		stage('Deployment'){
 			steps{
 				sh "echo ready for Predeployment"
-				sh "docker run --name myproject -d -p 8000:8080 devopstestimage/newproject"
+				sh "docker run --name project -d -p 8000:8080 devopstestimage/project"
 			}
 		}
 		stage('message'){
