@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://54.242.187.41:7000/</sonar.host.url>
+		<sonar.host.url>http://54.234.42.169:7000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>florence1</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://54.242.187.41:4000/repository/mavendeploymentrelease/</url>
+	      <url>http://54.234.42.169:4000/repository/firstreleaserepo/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.242.187.41:4000/repository/mavendeploymentsnapshot/</url>
+	      <url>http://54.234.42.169:4000/repository/firstsnapshotrepo/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
